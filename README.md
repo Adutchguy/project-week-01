@@ -3,6 +3,8 @@
 ## Setup
 * the team leader should create a repo on thier own account
 * add a package.js, .gitiginroe, .travis.yml, test/dummy-test.js
+  * the dummy test should  `expect(true).toEqual(true)` and should be used to make sure travis is working
+  * once travis is working it can be deleted
 * setup a github repo and add team mates as colaborators
 * enable travis 
 * In the repo settings, make the master branch a **protected** branch
